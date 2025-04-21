@@ -1,0 +1,86 @@
+.middle-title {
+    color: rgb(55, 118, 202);
+    text-align: center;
+    margin: 20px auto 0 auto;
+  }
+  
+  /* ----------------------------- */
+  
+  .sss{
+    margin: auto;
+    padding: 20px;
+  }
+
+  .search-form {
+    border: 1px solid #3776ca;
+    width: 700px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+  }
+  
+  input {
+    all: unset;
+    font: 16px system-ui;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+  
+  ::placeholder {
+    color: #A7A7A7;
+    /* opacity: 0.7;  */
+  }
+  
+  
+  button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    text-align: center;
+    color: #A7A7A7;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+/* ----------------------------------------------------------- */
+  @page {
+    margin: 1cm; /*print邊界*/
+    size:148mm 210mm ; /*列印紙張大小*/
+}
+.print{
+    page-break-after:always; /*print分頁面*/
+}
+@media print{
+    .imgs{
+        width: 100px;
+    }
+}
+/* ----------------------------------------------------------- */  
+
+.btnPrint{
+  background-color: aqua;
+}
+
+.rrs{
+  background-color: chartreuse;
+  display: flex;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-drow{
+  background-color:pink;
+}
+

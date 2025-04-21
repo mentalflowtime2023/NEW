@@ -1,0 +1,17 @@
+@charset "utf-8";
+body{
+bolist-style: none;
+}
+
+.small-lists{
+list-style-type:disc;
+display: block;
+/* list-style-type: decimal; */
+/* background-color: aqua; */
+}
+
+.ul-lists{
+    list-style-type: decimal;
+    padding: 10px;
+    margin: 10px;
+}

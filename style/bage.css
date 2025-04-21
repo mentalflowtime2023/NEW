@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+.container-bage {
+    max-width: 900px;
+    box-sizing: border-box;
+}
+
+.bagefram {
+    margin-top: 100px;
+    margin-bottom: 120px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flx {
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 65px;
+}
+
+.straight{
+    display: flex;
+    flex-direction: column
+}
+
+.btn-a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #141414;
+}
+
+.btn-bagebtns {
+    display: grid;
+}
+
+.bagebtns {
+    display: flex;
+    background-color: rgb(35, 154, 204, 0.6);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.but-css {
+    display: flex;
+    border-radius: 50px;
+    justify-content: left;
+    align-items: left;
+    padding: 15px;
+}
+
+h2 {
+    padding: 15px;
+}
+
+.up {
+    margin: 15px;
+}
+
+.down {
+    margin: 15px;
+}

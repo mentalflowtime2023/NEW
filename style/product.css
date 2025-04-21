@@ -1,0 +1,247 @@
+@charset "utf-8";
+/* 工具區------------------------------------------------------ */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-pro {
+    max-width: 800px;
+    box-sizing: border-box;
+}
+
+
+.container-pro-imgs {
+    max-width: 2000px;
+    box-sizing: border-box;
+}
+
+
+/* 切版------------------------------------------------------ */
+
+.pro-imgs {
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+    width: 850px;
+    height: auto;
+    /* background-color: aqua; */
+}
+
+.pro-img {
+    background-color: rgb(99, 212, 105);
+    top: 50px;
+    line-height: 50px;
+    background-position: center;
+    display: flex;
+    overflow: hidden;
+
+}
+
+
+.pro-img-css {
+    top: 50px;
+    line-height: 50px;
+    background-position: center;
+    width: 850px;
+    height: auto;
+    background-color: blue;
+
+}
+
+.pro-img-1, .pro-img-2, .pro-img-3, .pro-img-4,
+.pro-img-5, .pro-img-6, .pro-img-7, .pro-img-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.pro-head {
+    /* background-color: rgb(159, 130, 207); */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.but-between {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: rgb(72, 111, 185); */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* 小按鈕----------------------------- */
+/* 
+.but-left-css {
+    Width:70px;
+    Height:70px;
+    justify-content: space-between;
+    background-color: rgb(47, 184, 54);
+    transform: perspective(-50%,-50%);
+}
+
+.but-right-css{
+    Width:70px;
+    Height:70px;
+    justify-content: space-between;
+    background-color: rgb(184, 47, 47);
+    transform: perspective(-50%,-50%);
+} */
+
+
+.but:hover {
+    color: rgba(0, 0, 0, .5);
+}
+
+.mx-high{
+    width: 80px;
+    height: 160px;
+
+}
+
+.pp{
+    width: 80px;
+    height: auto;
+    /* margin: -35px; */
+}
+
+.oo{ 
+    width: 80px;
+    height: auto;
+    /* padding: -35px; */
+}
+
+
+/* .but {
+    font-size: 2rem;
+    line-height: 1.5;
+    text-indent: 8px;
+    background-color: rgba(189, 227, 255, 1)
+} */
+
+/* ---------------------------- */
+
+.btns{
+    /* background-color: #239ACC; */
+    margin-top: 20px;
+}
+
+
+.btnup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    background-color: #d9d9d9;
+    align-items: baseline;
+    
+    margin-bottom: 15px;
+}
+
+
+
+.btndoun {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    background-color: #d9d9d9;
+    align-items: baseline;
+    /* margin-top: 15px; */
+    /* margin-bottom: 15px; */
+}
+
+.btn-pro {
+    max-width: auto;
+    /* margin-left: 4px; */
+    margin: 4px;
+    padding-left:4px;
+    padding-right:4px;
+    text-align: justify;
+    vertical-align:middle;
+    line-height: 1.5;
+    /* background-color: aqua  */
+}
+
+.btn-pro:hover{
+    border-bottom: solid 2px;
+    border-bottom-color:#e1971d;
+    /* padding-left: 4px;
+    padding-right: 4px; */
+
+}
+
+/* ------------------------------------------------------ */
+.positiont-word1-css {
+    max-width: 50%;
+    padding: 80px 0px 40px;
+}
+
+.positiont-fram-imgcss {
+    display: flex;
+}
+
+.positiont-word2-2-css,
+.positiont-word2-3-css {
+    max-width: 50%;
+    padding: 80px 0px 80px;
+}
+
+.positiont-word2-4-css {
+    max-width: 80%;
+    padding: 80px;
+    /* background-color: #239ACC; */
+}
+
+/* ------------------------------------------------------ */
+
+/* 段落文案直立分格線 */
+
+/* .separator::before {
+        content: "888";
+        border-left: 1px solid #ccc;
+        height: 100%;
+        /* position: absolute; */
+/* left: 0; */
+
+.fontline {
+    box-sizing: border-box;
+    padding: 10px;
+    border-left: 5px solid #3776ca;
+    font-size: 16px;
+}
+
+/* ------------------------------------------------------ */
+.positiont-word1, .positiont-word3 {
+    padding-left: 400px;
+}
+
+.pro-word1-title, .pro-word2-title, .pro-word3-title {
+    font-size: 24px;
+    color: #3776ca;
+}
+
+.pro-word1-content, .pro-word2-content, .pro-word3-content {
+    font-size: 16px;
+    color: #141414;
+}

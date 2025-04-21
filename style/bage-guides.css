@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+.middle-title {
+    color: rgb(55, 118, 202);
+    text-align: center;
+    margin: 60px auto 0 auto;
+}
+
+/* ----------------------------- */
+
+.search-out {
+    padding: 60px;
+}
+
+.search-form {
+    border: 1px solid #3776ca;
+    width: 700px;
+    height: 44px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+
+input {
+    all: unset;
+    font: 16px system-ui;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+::placeholder {
+    color: #A7A7A7;
+    /* opacity: 0.7;  */
+}
+
+
+button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    text-align: center;
+    color: #A7A7A7;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* ----------------------------- */
+
+.rrrr {
+    max-width: 1200px;
+    text-align: center;
+    margin: 40px auto 0 auto;
+    background-color: #cf4f0f;
+}
+
+.OUt {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(42, 66, 146);
+    max-width: 900px;
+    margin: 20px auto 0 auto;
+    padding: 40px;
+    text-align: center;
+    gap: 40px;
+}
+
+.sh {
+    /* background-color: blue; */
+    background-color: #60c91a;
+    width: 260px;
+    height: 310px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.hot {
+    background: #cf4f0f;
+    border-radius: 20px 20px 0px 0px;
+    font-size: 30px;
+    text-align: center;
+    color: aqua;
+}
+
+.yyy {
+    text-align: left;
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.img-fram{
+    max-width:1000px;
+    margin-bottom:100px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #cf4f0f; */
+    display: flex;
+    justify-content: center;
+}
+
+.img-css{
+    /* background-color: #77b88a; */
+}
+
+.imgs{
+    /* background-color: #60c91a; */
+    display:flex;
+
+}
+
+.img{
+    border-radius:20px;
+    margin: 40px;
+    width: 300px;
+}
+
+
+.a-css{
+    text-decoration: none;
+    color: #141414;
+    text-align: center;
+    font-size: 32px;
+}

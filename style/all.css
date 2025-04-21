@@ -1,0 +1,624 @@
+@charset "utf-8";
+
+/* 工具區------------------------------------------------------ */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    font-family: "Open Huninn", Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+
+.container-navtop {
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+/* nav------------------------------------------------ */
+
+.navs-justify-content {
+    background-color: #BDE3FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around
+}
+
+.nav-loge-img {
+    display: block;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.nav-head.nav-body.nav-foot {
+    display: flex;
+}
+
+.nav-body.nav-foot {
+    margin-bottom: 6rem;
+}
+
+.navs {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.nav {
+    width: 135px;
+}
+
+.nav-css {
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.nav-titles {
+    display: grid;
+    text-decoration: none;
+    justify-content: space-evenly;
+    justify-content: center;
+    padding-top: 12px;
+    padding-bottom: 5px;
+    color: #141414;
+    border-bottom: solid 2px;
+    border-bottom-color: #3776ca;
+}
+
+.nav ul {
+    display: none;
+    position: absolute;
+}
+
+.nav:hover ul {
+    display: block;
+}
+
+.nav-title-link {
+    display: inline-block;
+    background-color: #D9D9D9;
+    text-decoration: none;
+    text-align: left;
+    width: 120px;
+    color: #141414;
+    padding-top: 8px;
+    padding-bottom: 2px;
+}
+
+.nav-titles:hover {
+    border-bottom: solid 4px;
+    border-bottom-color: #FF971D;
+}
+
+/*導覽列-登入------------------------------------------- */
+
+.nav-foot {
+    margin-left: 200px;
+}
+
+.logs {
+    width: 100px;
+}
+
+.logs-titles {
+    display: block;
+    text-decoration: none;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    padding-left: 35px;
+    border-bottom: solid 2px;
+    border-bottom-color: #3776ca;
+    color: #141414;
+    text-align: justify;
+}
+
+.logs-title {
+    display: block;
+    width: 100px;
+    background-color: #D9D9D9;
+    text-decoration: none;
+    text-align: left;
+    color: #141414;
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+
+.nav-log-btn {
+    background-color: #D9D9D9;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #141414;
+    text-align: left;
+    text-decoration: none;
+}
+
+.nav-foot ul {
+    display: none;
+    position: absolute;
+    text-decoration: none;
+    background-color: #D9D9D9;
+}
+
+.nav-foot:hover ul {
+    display: block;
+}
+
+.logs-titles:hover {
+    border-bottom: solid 4px;
+    border-bottom-color: #FF971D;
+}
+
+.header-btn{ display: none;}
+
+/* foot------------------------------------------- */
+
+.nav-footer {
+    background-color: #BDE3FF;
+    list-style-type: none;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+.nav-footer-btn-out {
+    display: grid;
+    max-width: 100%;
+}
+
+.nav-footer-btn-inside {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+}
+
+.btns-title {
+    width: 120px;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    color: #141414;
+    border-bottom: solid 2px;
+    border-bottom-color: #3776ca;
+    margin-left: 10px;
+}
+
+.btns-title:hover {
+    border-bottom: solid 2px;
+    border-bottom-color: #FF971D;
+}
+
+.btns-title-a {
+    text-decoration: none;
+    color: #141414;
+}
+
+/* footer------------------------------------------- */
+.footer-foot {
+    background-color: #BDE3FF;
+    text-align: center;
+}
+
+
+
+/* aside------------------------------------------- */
+
+.aside {
+    z-index: 10;
+    position: fixed;
+    right: 1rem;
+    bottom: 15rem;
+}
+
+.aside-link {
+    color: #239ACC;
+    text-decoration: .3s;
+}
+
+.aside-link:hover {
+    color: rgba(0, 0, 0, .5);
+}
+
+.aside-link-top {
+    font-size: 3rem;
+}
+
+/* nav-top------------------------------------- */
+
+.nav-top {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.nav-top-css {
+    display: block;
+}
+
+.nav-top-css-itme {
+    background-color: rgba(217, 217, 217, .3);
+    display: flex;
+    vertical-align: bottom;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.link {
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-left: .5rem;
+    padding-left: .4rem;
+    padding-right: .4rem;
+}
+
+.link-a {
+    color: #141414;
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 14px;
+    border-bottom: solid 2px;
+    border-bottom-color: #3776ca;
+}
+
+.link-a:hover {
+    border-bottom: solid 2px;
+    border-bottom-color: #FF971D;
+}
+
+/*font-size ------------------------------------------------------------- */
+
+/* 內頁主題大標---------------*/
+.font-big-title {
+    font-size: 40px;
+}
+
+/* 內頁主題中標------------*/
+.font-middle-title {
+    font-size: 32px
+}
+
+/* 內頁主題小標--------*/
+.font-small-title {
+    font-size: 24px
+}
+
+/* NavBar按鈕-------*/
+.font-navbar-title {
+    font-size: 24px
+}
+
+/* 區塊標題應用---*/
+.font-section-title {
+    font-size: 20px
+}
+
+/* NavBarTop按鈕 */
+.font-navtop-title {
+    font-size: 14px
+}
+
+/* 內文資訊應用*/
+.font-write-title {
+    font-size: 16px
+}
+
+/* 條列式內文 */
+.font-list-title {
+    font-size: 16px
+}
+
+/* 最小字級 */
+.font-last-title {
+    font-size: 14px
+}
+
+/*Color System  Guideline ------------------------------------------------------------- */
+/* 清晰藍 */
+.clearblue {
+    color: rgb(35, 154, 204);
+}
+
+/* 知性藍 */
+.nousblue {
+    color: rgb(55, 118, 202);
+}
+
+/* 青墨藍 */
+.inkblue {
+    color: #233C61;
+}
+
+/* 墨筆黑 */
+.penblack {
+    color: #141414;
+}
+
+/* 明亮白 */
+.white {
+    color: rgb(255, 255, 255);
+}
+
+/* 導覽列藍 */
+.navb {
+    color: rgb(189, 227, 255);
+}
+
+/* 提示橘 */
+.tip-orange {
+    color: #FF971D;
+}
+
+/* 按鈕輔助色 */
+.white {
+    color: #0DAC60;
+}
+
+/* 輔助灰 */
+.gray {
+    color: rgb(217, 217, 217);
+}
+
+/* 配色提醒紅 */
+.red {
+    color: #F43535;
+}
+
+/* #b3976b */
+/* #2ba083; */
+
+/* -----dis */
+
+
+
+
+
+/* 圖片置中------------------------------------------------- */
+
+.box {
+    height: 200px;
+    width: 300px;
+    background: pink;
+    margin: 30px auto;
+    font-size: 0;
+}
+
+.box:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 100%;
+}
+
+.text {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+/* 分隔線段設計--------------------------------------------- */
+
+/* 漸變 color1 - color2 - color1 */
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+
+/* 透明漸變 - color - transparent */
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+/* 雙線 */
+
+hr.style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+
+.style-me {
+    border: 0;
+    height: 1px;
+    color: #999;
+
+}
+
+hr.style-ff {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    width: 1000px;
+}
+
+/* RWD --------------------------------- */
+
+@media screen and (max-width: 480px) {
+    .navs-justify-content {
+        background-color: #BDE3FF;
+
+    }
+
+    .logs {
+        display: none;
+    }
+
+
+    .navs {
+        display: none;
+    }
+    .nav {
+        display: none;
+    }
+    .header-body {
+        display: none;
+    }
+
+
+    .header-foot {
+        display: block;
+    }
+
+    .header-img-logo {
+        opacity: .5;
+    }
+
+    .nav-body {
+        z-index: 20;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .header-ul {
+        flex-direction: column;
+        background-color: transparent;
+    }
+
+    .header-link {
+        display: block;
+        padding: .7rem 1rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .header-btn {
+        display: inline-block;
+        padding: 0;
+        font-size: 2rem;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .header-btn-bars {
+        color: rgba(0, 0, 0, .5);
+    }
+
+    .header-btn-xmark {
+        position: absolute;
+        top: .75rem;
+        right: 1.3rem;
+        color: #666;
+    }
+
+    .banner {
+        clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
+    }
+
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .banner-head, .banner-body,
+    .banner-index .banner-head, .banner-index .banner-body {
+        width: 100%;
+    }
+
+    .banner-head,
+    .banner-index .banner-head {
+        padding-top: 5rem;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+
+    .banner-body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .banner-index .banner-body {
+        padding-top: 1rem;
+    }
+
+    .banner-title {
+        font-size: 7vw;
+    }
+
+    .banner-title-line::after {
+        left: 50%;
+        margin-left: -1.5rem;
+    }
+
+    .banner-service .banner-img, .banner-about .banner-img {
+        object-position: center;
+    }
+
+    .banner-small {
+        font-size: 5vw;
+    }
+
+    .banner-ul {
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+    .banner-img-mobile {
+        width: 40vw;
+        bottom: 2.5rem;
+    }
+
+    .banner-img-desktop {
+        width: 70vw;
+        margin-left: 10vw;
+    }
+
+    .banner-img-pad {
+        width: 60vw;
+    }
+
+    .aside {
+        display: none;
+    }
+
+    .footer {
+        padding-top: 1rem;
+        clip-path: none;
+    }
+
+    .footer-head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer-body {
+        display: none;
+    }
+}
